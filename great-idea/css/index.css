@@ -64,3 +64,180 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+header {
+	margin: 0;
+	padding: 20px 0;
+  }
+  
+  header nav {
+	margin: 20px 0;
+	display: flex;
+	margin-left: 92px;
+	justify-content: left;
+  }
+  
+  header nav a {
+	margin-left: 45px;
+	font-size: 15px;
+	color: grey;
+	text-decoration: none;
+  }
+  header nav .first-anchor {
+	margin-left: 0;
+  }
+  .title-content{
+	  width: 100%;
+	  display: inline-block;
+	  margin-top: 20px;
+  }
+  .title{
+	  display: inline-block;
+  }
+  .title h1 {
+	  left: 151px;
+	  text-align: center;
+	  position: relative;	
+	  bottom: 60px;	
+	  font-size: 75px;
+  }
+
+  .titleimg {
+	  display: inline-block;
+	  width: 50%;
+	  margin-left: 250px;
+  }
+
+  button {
+	  position: relative;		
+	  left: 0px;
+	  top: 40px;
+	  width: 160px;
+	  height: 40px;
+  }
+
+  .above-image {
+	  border-top: 2px solid black;
+	  display: inline-block;
+	  margin-top: 50px;
+	  margin-left: 90px;
+	  padding-top: 50px;
+  }
+
+  .features {
+	  margin: 12px 0;
+	  display: inline-block;
+	  width: 452px;
+  }
+  .about {
+	  margin: 20px 0;
+	  display: inline-block;
+	  width: 418px;
+  }
+  .middle-img {
+	margin-left: 85px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+  }
+.below-image{
+	margin-top: 20px;
+	margin-left: 90px;
+	margin-bottom: 60px;
+	border-bottom: 2px solid black;
+	padding-bottom: 50px;
+	display: inline-block;
+  }
+  .services {
+	  display: inline-block;
+	  width: 290px;
+  }
+  .products {
+	display: inline-block;
+	width: 290px;
+  }
+  
+  .vision {
+	display: inline-block;
+	width: 290px;
+  }
+  
+  .footer {
+	margin-left: 90px;
+  }
+  
+  .address {
+	display: inline-block;
+  }
+  .number {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+  }
+  
+  .copyright {
+	margin-top: 20px;
+	margin-left: 450px;
+  }
+  
+  .container {
+	width: 1146px;
+	margin: 0 auto;
+  }
+
+  .service-head {
+	  display: flex;
+	  margin-left: 137px;
+    margin-top: 40px;
+	
+
+  }
+  .services-header-img {
+	  margin-left: 137px;
+	
+  }
+
+  .service-text {
+	display: flex;
+    margin-left: 137px;
+    padding-bottom: 20px;
+	border-bottom: 2px solid black;
+	width: 870px;
+  }
+  .parent .child-item{
+	  background: ghostwhite;
+	  display: flex;	
+	  flex-direction: column;
+	  border: 2px solid black;
+	  width: 400px;
+	  margin: 15px;	
+	  height: 240px;
+	  padding: 14px;
+	  
+  }
+
+  .parent {
+	  display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  margin: auto;
+	  width: 870px;
+	  padding-top: 30px;
+	  border-bottom: 2px solid black;
+  }
+
+  .facts {
+	  display: flex;
+	  margin-top: 30px;	
+	  width: 800px;
+	  margin-left: 150px;
+  }
+
+  .list{
+	  align-self: flex-end;
+	  position: relative;
+	  right: 250px;	
+  }
+
+  li{
+	  padding: 5px;
+	  width: 120px;	
+  }
